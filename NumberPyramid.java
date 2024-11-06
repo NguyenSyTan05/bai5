@@ -17,16 +17,16 @@ public class NumberPyramid {
 
         System.out.println("Kim tu thap so:");
         
-        // Vòng lặp bên ngoài để kiểm soát số hàng
+     
         for (int i = 1; i <= n; i++) {
-            // Vòng lặp bên trong để in số trên mỗi hàng
+          
             for (int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
             }
-            System.out.println(); // Xuống dòng sau khi in xong mỗi hàng
+            System.out.println(); 
         }
 
-        scanner.close(); // Đóng đối tượng scanner
+        scanner.close();
     }
 }
 
